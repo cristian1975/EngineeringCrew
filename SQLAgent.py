@@ -125,7 +125,8 @@ crew = Crew(
 )
 
 inputs = {
-    "query": "How is the salaray in USD based on employment type and experience level? "
+    "query": "Explain the maximum diference in salary for job title data scientist between US and DE employee residence \
+     and show the maximum salary for each residence and sql queries in log file"
 }
 
 result = crew.kickoff(inputs=inputs)
